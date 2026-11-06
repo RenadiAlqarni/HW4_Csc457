@@ -1,0 +1,730 @@
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+dl {
+    margin-bottom: 2rem;
+}
+
+a {
+    color: #205444;
+}
+
+nav {
+    background-color: #fafafa;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 1.5rem 2%;
+    background-color: #fafafa;
+    overflow: auto;
+}
+
+.navbar a {
+    display: inline-block;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 20px;
+}
+
+.navbar a.active {
+    background-color: #ff8c1a;
+}
+
+.navbar a:hover {
+    background-color: #ff8c1a;
+}
+
+.navbar .contact-link {
+    float: right;
+    margin-left: 0;
+    border: 1px solid black;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+/* Background*/
+body {
+    margin: 0;
+    background-color: #fafafa;
+    background-image: repeating-linear-gradient(
+        to bottom,
+        transparent 0,
+        transparent 28px,
+        #cddaf0 29px,
+        #cddaf0 30px
+    );
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #fafafa;
+}
+
+/* footer */
+.site-footer {
+    padding: 1.5rem 5%;
+    margin-top: 3rem;
+    background-color: #fafafa;
+    border-top: 1px solid #cccccc;
+    text-align: right;
+}
+
+.site-footer p {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.site-footer a {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.site-footer a:hover {
+    color: #ff8c1a;
+    text-decoration: underline;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.site-footer {
+    margin-top: 3rem;
+}
+
+.site-footer {
+    margin-top: auto;
+}
+
+
+
+/* home page */
+
+#about {
+    padding-top: 3rem;
+}
+
+.home-page {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.home-hero {
+    text-align: center;
+    padding: 4rem 0 6rem;
+}
+
+.hero-intro {
+    font-family: Georgia, serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #205444;
+    margin-bottom: 3rem;
+}
+
+
+.hero-name {
+    border: 3px solid #205444;
+    border-radius: 30px;
+    padding: 2rem 1rem;
+    max-width: 850px;
+    margin: 0 auto 2rem;
+}
+
+.hero-name h1 {
+    font-family: Georgia, serif;
+    font-size: clamp(3rem, 7vw, 5rem);
+    font-weight: bold;
+    color: #205444;
+    text-transform: uppercase;
+    margin: 0;
+    text-shadow: 2px 2px #b5d9f1;
+}
+
+
+.hero-stickers {
+    text-align: center;
+    margin: 2rem 0 4rem;
+}
+
+.home-sticker {
+    display: inline-block;
+    padding: 0.8rem 1.3rem;
+    margin: 0.5rem 2%;
+    border: 2px solid #205444;
+    border-radius: 15px;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #205444;
+}
+
+.home-sticker.sticker-pink {
+    background-color: #ffc1d6;
+}
+
+.home-sticker.sticker-yellow {
+    background-color: #ffe28a;
+}
+
+.home-sticker.sticker-green {
+    background-color: #a7e4bd;
+}
+
+
+.home-hero h2 {
+    font-family: Georgia, serif;
+    font-size: 2rem;
+    color: #205444;
+    margin-bottom: 1.5rem;
+}
+
+.hero-description {
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #205444;
+    margin-bottom: 2rem;
+}
+
+
+.home-project-link {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #d7c4f8;
+    color: #205444;
+    border: 2px solid #205444;
+    border-radius: 12px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+.home-about {
+    padding: 3rem 0 5rem;
+}
+
+.home-about h2 {
+    font-family: Georgia, serif;
+    font-size: 2.5rem;
+    color: #205444;
+    text-shadow: 2px 2px #b5d9f1;
+    margin-bottom: 2rem;
+}
+
+
+.home-columns {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.home-box {
+    display: inline-block;
+    width: 44%;
+    padding: 2rem;
+    margin: 1%;
+    vertical-align: top;
+    text-align: left;
+    box-sizing: border-box;
+    border: 2px solid #205444;
+    border-radius: 18px;
+}
+
+.home-box:first-child {
+    background-color: #fff0f5;
+}
+
+.home-box:last-child {
+    background-color: #f0eaff;
+}
+
+.home-box h3 {
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+    color: #205444;
+    margin-bottom: 1.5rem;
+}
+
+.home-box ul,
+.home-box ol {
+    padding-left: 1.5rem;
+    line-height: 2;
+    font-family: Arial, sans-serif;
+    color: #205444;
+}
+
+.home-box ul {
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.home-box ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.home-explore {
+    margin-top: 3rem;
+}
+
+.home-explore dl {
+    font-family: Arial, sans-serif;
+    color: #205444;
+}
+
+.home-explore dt {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1.5rem;
+}
+
+.home-explore dd {
+    margin: 0.5rem 0 1.5rem 1rem;
+    line-height: 1.7;
+}
+
+.scroll-arrow {
+    display: block;
+    width: fit-content;
+    margin: 1.5rem auto 0;
+    font-family: Georgia, serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #c46c58;
+    text-decoration: none;
+    background: none;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .hero-name h1 {
+        font-size: 2.5rem;
+    }
+
+    .home-box {
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    }
+
+    .hero-stickers {
+    text-align: center;
+     }
+
+    .home-hero {
+        padding: 3rem 0;
+    }
+}
+
+
+/* project page */
+
+.projects-page {
+    padding: 2rem 5%;
+}
+
+.projects-page h1 {
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    color: #205444;
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #b5d9f1;
+    margin-bottom: 1rem;
+}
+
+.projects-subtitle {
+    text-align: left;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #c46c58;
+    margin-bottom: 4rem;
+}
+
+.project-card {
+    margin-bottom: 6rem;
+    overflow: auto;
+}
+
+.project-card img {
+    float: left;
+    width: 48%;
+    height: auto;
+    border: none;
+    border-radius: 18px;
+}
+
+.project-info {
+    float: right;
+    width: 44%;
+    margin: 5rem 2% 0 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.project-card.reverse img {
+    float: right;
+}
+
+.project-card.reverse .project-info {
+    float: left;
+    margin: 5rem 0 0 2%;
+    text-align: center;
+}
+
+.project-info h2 {
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    color: #205444;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.project-info p {
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #205444;
+}
+
+.project-info a {
+    display: inline-block;
+    padding: 0.9rem 1.5rem;
+    margin-top: 1.5rem;
+    background-color: #ffc1d6;
+    color: #205444;
+    border: 2px solid #205444;
+    border-radius: 12px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+.project-card img,
+.project-card.reverse img {
+    float: none;
+    display: block;
+    width: 100%;
+}
+
+.project-info,
+.project-card.reverse .project-info {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 2rem 0;
+}
+}
+
+
+
+/* CV page */
+
+.cv-page {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.cv-page h1 {
+    font-family: "Courier New", monospace;
+    font-size: clamp(3rem, 7vw, 6rem);
+    text-transform: uppercase;
+    color: #214d3a;
+    margin-bottom: 2rem;
+}
+
+.cv-summary {
+    margin-bottom: 4rem;
+    padding: 0;
+    background: transparent;
+}
+
+.cv-page h2 {
+    font-family: Georgia, serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #205444;
+    text-shadow: 2px 2px #b5d9f1;
+}
+
+.cv-summary p {
+    font-family: Arial, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    max-width: 750px;
+}
+
+.cv-creative {
+    margin: 3rem 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    text-align: center;
+}
+
+.cv-education,
+.cv-skills {
+    display: inline-block;
+    width: 44%;
+    margin: 0 2%;
+    vertical-align: top;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.education-item {
+    margin-top: 2rem;
+}
+
+.education-star {
+    display: inline-block;
+    font-size: 2rem;
+    color: #205444;
+    vertical-align: top;
+    margin-right: 1rem;
+}
+
+.education-item > div {
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+}
+
+.education-date {
+    color: #c46c58;
+    font-weight: bold;
+}
+
+.education-item h3 {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    color: #214d3a;
+    margin: 0.5rem 0;
+}
+
+.education-item p {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 0.3rem 0;
+}
+
+.sticker-board {
+    padding: 1rem 0 3rem;
+}
+
+.skill-sticker {
+    display: inline-block;
+    padding: 0.9rem 1.2rem;
+    margin: 0.5rem;
+    border: 2px solid #205444;
+    border-radius: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #205444;
+    box-shadow: 3px 4px 0 #205444;
+}
+
+.sticker-pink {
+    background-color: #ffc5dd;
+}
+
+.sticker-blue {
+    background-color: #a9d9f7;
+}
+
+.sticker-yellow {
+    background-color: #ffe18b;
+}
+
+.sticker-green {
+    background-color: #a9e6bd;
+}
+
+.sticker-purple {
+    background-color: #d8c4ff;
+}
+
+.sticker-orange {
+    background-color: #ffc29b;
+}
+
+
+.cv-skills > p {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #333333;
+}
+
+.cv-quote {
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    color: #214d3a;
+    margin: 4rem 0;
+}
+
+
+@media (max-width: 768px) {
+    .cv-education,
+    .cv-skills {
+        display: block;
+        width: 100%;
+        margin: 0 0 3rem;
+    }
+
+    .cv-page {
+        width: 90%;
+        padding: 2rem 0;
+    }
+
+    .cv-page .cv-work-title {
+        margin-top: 3rem;
+    }
+
+    .skill-sticker {
+        margin: 0.5rem;
+    }
+}
+
+
+
+/* contact page */
+
+.contact-page {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.contact-subtitle {
+    font-family: Georgia, serif;
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #c46c58;
+    margin-bottom: 3rem;
+}
+
+.contact-center {
+    max-width: 550px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-center h2 {
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    color: #205444;
+    text-shadow: 2px 2px #b5d9f1;
+    margin-bottom: 1rem;
+}
+
+.contact-description {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #205444;
+    margin-bottom: 2rem;
+}
+
+.contact-center form {
+    display: block;
+    text-align: left;
+}
+
+.contact-center label {
+    display: block;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #205444;
+    margin-bottom: 0.8rem;
+}
+
+.contact-center input,
+.contact-center textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.8rem;
+    margin-bottom: 0.8rem;
+    border: 1px solid #c46c58;
+    border-radius: 8px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.contact-center button {
+    display: block;
+    width: 100%;
+    background-color: #ffc1d6;
+    color: #205444;
+    border: 2px solid #205444;
+    border-radius: 12px;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.contact-or {
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #205444;
+    margin: 1.5rem 0 1rem;
+}
+
+.contact-center .email-link {
+    display: inline-block;
+    background-color: #ffc1d6;
+    color: #205444;
+    border: 2px solid #205444;
+    border-radius: 12px;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
